@@ -20,7 +20,7 @@ yargs.command({
           },
           dueDate: {
                type: "String",
-               default: "15/8/2022"
+               default: "Date.now()"
           },
           status: {
                type: "Boolean",
