@@ -6,8 +6,6 @@ const add = (argv) => {
      const task = {}
      heads.forEach(head => task[head] = argv[head])
      console.log(task);
-     if (task.status == true) task.status == false
-     else task.status == true
      const allTasks = deal.readFromJs();
      allTasks.push(task)
      deal.writeInJson(allTasks)
